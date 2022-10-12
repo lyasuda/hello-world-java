@@ -15,7 +15,7 @@ COPY MyProjectJava.jar /helloWorld/
 
 WORKDIR /helloWorld/
 
-# comando que será executado durante o processo de build da imagem. 
+#comando que será executado durante o processo de build da imagem. 
 #(Iremos compilar o arquivo nessa etapa).
 ##RUN ["javac", "MyProjectJava.java"]
 #comando que será executado quando o container terminar de subir
